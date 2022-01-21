@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  pre: MyString
+  post: MyString
+  type: 1
+  meaning: MyText
+  example: MyText
+
+two:
+  name: MyString
+  pre: MyString
+  post: MyString
+  type: 1
+  meaning: MyText
+  example: MyText
