@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Part.destroy_all
+Term.destroy_all
+
+file_names = (1..15).map{ |i| "chapter_" + i }
+
+ActiveRecord::Base.transaction do
+  file_names.each do |file_name|
+    path = "#{Rails.root}/db/seeds/#{file_name}.rb"
+    if File.exists?(path)
+      puts "- - Seeding data from file: #{file_name}"
+      require path
+    end
+  end
+end

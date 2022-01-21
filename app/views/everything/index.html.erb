@@ -1,5 +1,39 @@
 <%= render "shared/header", page: "everything" %>
 
-<h1>Everything Page</h1>
+<div class="main-content">
+  <h1>Word Parts</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Word Part</th>
+        <th>Type</th>
+        <th>Meaning</th>
+        <th>Example</th>
+      </tr>
+    <thead>
+    <tbody>
+      <% @parts.each do |part| %>
+        <%= render "shared/part_row", part: part %>
+      <% end %>
+    </tbody>
+  </table>
+
+  <h1>Reference Terms</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Reference Term</th>
+        <th>Category</th>
+        <th>Meaning</th>
+        <th>Example</th>
+      </tr>
+    <thead>
+    <tbody>
+      <% @terms.each do |term| %>
+        <%= render "shared/term_row", term: term %>
+      <% end %>
+    </tbody>
+  </table>
+</div>
 
 <%= render "shared/footer" %>
