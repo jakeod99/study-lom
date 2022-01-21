@@ -1,0 +1,15 @@
+<div class="header">
+  <div class="title-container">
+    <div class="title">StuLoM</div>
+    <div class="subtitle"><em>Studying the Language of Medicine</em></div>
+  </div>
+  <div class="page-options">
+    <div class="page-option<%= local_assigns[:page] != "query" ? " other-page" : ""%>">
+      <%= link_to "Query", controller: "welcome" %>
+    </div>
+    <div class="page-option-separator">|</div>
+    <div class="page-option<%= local_assigns[:page] != "everything" ? " other-page" : ""%>">
+      <%= link_to "Everything", controller: "everything"%>
+    </div>
+  </div>
+</div>

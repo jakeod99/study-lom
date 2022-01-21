@@ -13,3 +13,76 @@
  *= require_tree .
  *= require_self
  */
+:root {
+  --blue: #90DDF0;
+  --dark-blue: #33658A;
+  --light-gray: #E4ECF1;
+  --gray: #C9D9E3;
+  --dark-gray: #6C97B2;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: var(--blue);
+  color: var(--dark-blue);
+  text-align: left;
+  padding: 3pt;
+  display: flex;
+}
+
+.title-container {
+  text-align: center;
+  width: 200pt;
+  padding-bottom: 5pt;
+}
+
+.title {
+  font-size: 36pt; 
+}
+
+.page-options {
+  width: calc(100vw - 200pt);
+  padding: 32pt 0 0 20pt;
+  font-size: 20pt;
+  text-align: center;
+  display: flex;
+  color: var(--dark-blue);
+}
+
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+.other-page a {
+  color: var(--dark-gray);
+}
+
+.page-option-separator {
+  font-size: 22pt;
+  padding: 0 10pt;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 8pt 0 0 0;
+  margin: 10pt;
+  text-align: center;
+}
+
+hr {
+  margin-left: 25pt;
+  margin-right: 25pt;
+}
+
+.footer-text {
+  padding: 3pt;
+}
