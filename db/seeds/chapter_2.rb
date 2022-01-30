@@ -1236,6 +1236,42 @@ Part.create!([
     type: 2, # 2 -> suffix
     meaning: "Add to a verb to make an adjective. Means: relates to, pertains to, refers to",
     example: "caus/tic (burning/relates to or refers to)"
+  },
+  {
+    display: "-centesis",
+    name: "centesis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "surgical puncture - to remove fluid",
+    example: "abdomino/centesis (belly/fluid removal by surgical puncture)"
+  },
+  {
+    display: "-ec/tom/y",
+    name: "ectomy",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "out/cut/procedure or removal",
+    example: "hyster/ectom/y (uterus/out/cut/procedure of)"
+  },
+  {
+    display: "-o/pex/y",
+    name: "pexy",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "to fixate, position or to attach",
+    example: "salpingo/pex/y (tube/repositioned or attached/procedure of"
+  },
+  {
+    display: "-o/plast/y",
+    name: "plasty",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "plastic surgery (to improve function, looks, or relieve pain",
+    example: "rhino/plast/y (nose/plastic surgery/procedure of)"
   }
 ])
 
