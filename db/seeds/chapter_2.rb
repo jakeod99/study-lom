@@ -262,8 +262,287 @@ Part.create!([
     pre: nil,
     post: nil,
     type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
-    meaning: "out from, out",
-    example: "ec/topic (out/of place/refers to)"
+    meaning: "on outer side, situated on",
+    example: "ecto/derm (outer/skin)"
+  },
+  {
+    display: "em-",
+    name: "em",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "in, within",
+    example: nil
+  },
+  {
+    display: "en-",
+    name: "en",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "in, within",
+    example: "en/cephal/on (in/head/refers to \"brain\")"
+  },
+  {
+    display: "endo-",
+    name: "endo",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "within",
+    example: "endo/metri/um (within/uterus/refers to)"
+  },
+  {
+    display: "epi-",
+    name: "epi",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "upon, on",
+    example: "epi/derm/is (upon/skin/refers to)"
+  },
+  {
+    display: "ex-",
+    name: "ex",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "upon, on, outside, on outer side, outer layer, protrude",
+    example: "ex/opthalm/ic (protrude/eye/refers)"
+  },
+  {
+    display: "exo-",
+    name: "exo",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "upon, on, outside, on outer side, outer layer, protrude",
+    example: "exo/gen/ous (outside/originating/refers)"
+  },
+  {
+    display: "extra-",
+    name: "extra",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "outside",
+    example: "extra/cellul/ar (outside/cell/refers to)"
+  },
+  {
+    display: "hyper-",
+    name: "hyper",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "excessive, over, above, more",
+    example: "hyper/troph/y (over/growth/process of)"
+  },
+  {
+    display: "hypo-",
+    name: "hypo",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "under, below, deficient, low, less, lesser",
+    example: "hypo/tens/ion (low/contract or stress/process of)"
+  },
+  {
+    display: "im-",
+    name: "im",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "in, into, or not",
+    example: "im/mature (not/mature)"
+  },
+  {
+    display: "in-",
+    name: "in",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "in, into, or not",
+    example: "in/cis/ion (in/cut/process of)"
+  },
+  {
+    display: "infra-",
+    name: "infra",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "below, under",
+    example: "infra/clavicul/ar (below/collar bone/refers)"
+  },
+  {
+    display: "inter-",
+    name: "inter",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "between",
+    example: "inter/cost/al (between/ribs/refers to)"
+  },
+  {
+    display: "intra-",
+    name: "intra",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "within",
+    example: "intra/cerebr/al (within/cerebrum/refers to)"
+  },
+  {
+    display: "intro-",
+    name: "intro",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "into, within, in",
+    example: "intro/vers/ion (inward/turning/process of)"
+  },
+  {
+    display: "meta-",
+    name: "meta",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "beyond, after, change",
+    example: "meta/carp/al (beyond/wrist/refers to)"
+  },
+  {
+    display: "para-",
+    name: "para",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "beside, near, beyond",
+    example: "para/cardi/ac (beside/heart/refers to)"
+  },
+  {
+    display: "per-",
+    name: "per",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "through, excessive, in",
+    example: "per/meate (through/opening)"
+  },
+  {
+    display: "peri-",
+    name: "peri",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "around",
+    example: "peri/oste/um (around/bone/refers to)"
+  },
+  {
+    display: "post-",
+    name: "post",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "after, behind",
+    example: "post/part/um (after/childbirth/refers to)"
+  },
+  {
+    display: "pre-",
+    name: "pre",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "before, in front of",
+    example: "pre/maxillary (front of/jaw/refers to)"
+  },
+  {
+    display: "pro-",
+    name: "pro",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "before, in front of",
+    example: "pro/gnosis (before/knowledge)"
+  },
+  {
+    display: "re-",
+    name: "re",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "back, again, contrary",
+    example: "re/flex (again/bend)"
+  },
+  {
+    display: "retro-",
+    name: "retro",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "backward, behind",
+    example: "retro/grade (backward/going)"
+  },
+  {
+    display: "sub-",
+    name: "sub",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "under, low, beneath",
+    example: "sub/cutane/ous (under/skin/refers to)"
+  },
+  {
+    display: "super-",
+    name: "super",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "above, upper, upon, excessive",
+    example: "super/i/or (above/one who)"
+  },
+  {
+    display: "supra-",
+    name: "supra",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "above, upper, upon, excessive",
+    example: "supra/stern/al (above/sternum/refers to)"
+  },
+  {
+    display: "sym-",
+    name: "sym",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "together, with",
+    example: "sym/phy/sis (together/growing/state of)"
+  },
+  {
+    display: "syn-",
+    name: "syn",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "together, with",
+    example: "syn/drome (together/run)"
+  },
+  {
+    display: "trans-",
+    name: "trans",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "across, through, beyond",
+    example: nil
+  },
+  {
+    display: "ultra-",
+    name: "ultra",
+    pre: nil,
+    post: nil,
+    type: 0, # 0 -> prefix, 1 -> root, and 2 -> suffix
+    meaning: "beyond, in excess",
+    example: "ultra/violet (beyond/spectrum color)"
   }
 ])
 
