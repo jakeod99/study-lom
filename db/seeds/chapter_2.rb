@@ -894,6 +894,348 @@ Part.create!([
     type: 2, # 2 -> suffix
     meaning: "Means: nature of",
     example: "cellul/ite (cells/nature of)"
+  },
+  {
+    display: "-ion",
+    name: "ion",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means: procedure of, process of, action of, condition of",
+    example: nil
+  },
+  {
+    display: "-tion",
+    name: "tion",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means: procedure of, process of, action of, condition of",
+    example: nil
+  },
+  {
+    display: "-ition",
+    name: "ition",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means: procedure of, process of, action of, condition of",
+    example: "prohib/ition (prohibiting/process of)"
+  },
+  {
+    display: "-ation",
+    name: "ation",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means: procedure of, process of, action of, condition of",
+    example: nil
+  },
+  {
+    display: "-iation",
+    name: "iation",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means: procedure of, process of, action of, condition of",
+    example: nil
+  },
+  {
+    display: "-ing",
+    name: "ing",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means: procedure of, process of, action of, condition of",
+    example: nil
+  },
+  {
+    display: "-y",
+    name: "y",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means: procedure of, process of, action of, condition of",
+    example: "hyster/ectom/y (uterus/cut out/procedure of)"
+  },
+  {
+    display: "-itis",
+    name: "itis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: to express condition of inflammation; infection",
+    example: "sinus/itis (cavity/infection)"
+  },
+  {
+    display: "-isy",
+    name: "isy",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: to express condition of inflammation; infection",
+    example: "pleur/isy (lung covering/inflammed)"
+  },
+  {
+    display: "-icy",
+    name: "icy",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: to express condition of inflammation; infection",
+    example: nil
+  },
+  {
+    display: "-ium",
+    name: "ium",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: nil
+  },
+  {
+    display: "-olus",
+    name: "olus",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: "alve/olus (cavity/small)"
+  },
+  {
+    display: "-iole",
+    name: "iole",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: "bronch/iole (bronchi-like/small)"
+  },
+  {
+    display: "-cule",
+    name: "cule",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: nil
+  },
+  {
+    display: "-culus",
+    name: "culus",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: nil
+  },
+  {
+    display: "-cle",
+    name: "cle",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: "cut/icle (skin/small or lesser)"
+  },
+  {
+    display: "-culum",
+    name: "culum",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: nil
+  },
+  {
+    display: "-ellum",
+    name: "ellum",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns. Means: small, smaller, lesser",
+    example: "cereb/ellum (brain/small or lesser)"
+  },
+  {
+    display: "-ize",
+    name: "ize",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns or adjectives to make verbs. Means: act like; use; subject to; make into; refer to",
+    example: "hypnot/ize (sleep/acts like)"
+  },
+  {
+    display: "-ate",
+    name: "ate",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns or adjectives to make verbs. Means: act like; use; subject to; make into; refer to",
+    example: "im/person/ate (not/human/acts like)"
+  },
+  {
+    display: "-ma",
+    name: "ma",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to verbs to make nouns. Means: many; multiple; \"results from health condition\"; act of",
+    example: nil
+  },
+  {
+    display: "-mata",
+    name: "mata",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to verbs to make nouns. Means: many; multiple; \"results from health condition\"; act of",
+    example: "carcino/mata (crab-like/many \"tumors\")"
+  },
+  {
+    display: "-men",
+    name: "men",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to verbs to make nouns. Means: many; multiple; \"results from health condition\"; act of",
+    example: nil
+  },
+  {
+    display: "-mina",
+    name: "mina",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to verbs to make nouns. Means: many; multiple; \"results from health condition\"; act of",
+    example: nil
+  },
+  {
+    display: "-ment",
+    name: "ment",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to verbs to make nouns. Means: many; multiple; \"results from health condition\"; act of",
+    example: "liga/ment (binding/act of)"
+  },
+  {
+    display: "-ure",
+    name: "ure",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to verbs to make nouns. Means: many; multiple; \"results from health condition\"; act of",
+    example: nil
+  },
+  {
+    display: "-oid",
+    name: "oid",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to form adjectives. Means: likeness; resembles",
+    example: "epiderm/oid (upper skin/likeness)"
+  },
+  {
+    display: "-form",
+    name: "form",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to form adjectives. Means: likeness; resembles",
+    example: "vermi/form (worm/shape resembles)"
+  },
+  {
+    display: "-ology",
+    name: "ology",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means process of the study of, science of, or knowledge of",
+    example: "dermat/ology (skin/process of the science or study of the)"
+  },
+  {
+    display: "-logy",
+    name: "logy",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Means process of the study of, science of, or knowledge of",
+    example: "bio/log/y (life/science of/process)"
+  },
+  {
+    display: "-oma",
+    name: "oma",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to make verbs. Means: tumor; swelling",
+    example: "lip/oma (fat/tumor); glauc/oma (cloudy/swelling); carcin/oma (crab-like/tumor)"
+  },
+  {
+    display: "-osis",
+    name: "osis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to make verbs. Means: condition, medical condition, disease, state of",
+    example: "scoli/osis (crooked/conditions); kyph/osis (humpback/condition); lord/osis (swayback/condition)"
+  },
+  {
+    display: "-esis",
+    name: "esis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to make verbs. Means: condition, medical condition, disease, state of",
+    example: nil
+  },
+  {
+    display: "-asis",
+    name: "asis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to make verbs. Means: condition, medical condition, disease, state of",
+    example: nil
+  },
+  {
+    display: "-iasis",
+    name: "iasis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to make verbs. Means: condition, medical condition, disease, state of",
+    example: nil
+  },
+  {
+    display: "-sis",
+    name: "sis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to make verbs. Means: condition, medical condition, disease, state of",
+    example: nil
+  },
+  {
+    display: "-ous",
+    name: "ous",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to nouns to make adjectives. Means: material, refers to, state of",
+    example: "ser/ous (composed of serum/state of)"
+  },
+  {
+    display: "-tic",
+    name: "tic",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "Add to a verb to make an adjective. Means: relates to, pertains to, refers to",
+    example: "caus/tic (burning/relates to or refers to)"
   }
 ])
 
