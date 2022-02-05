@@ -1257,21 +1257,156 @@ Part.create!([
   },
   {
     display: "-o/pex/y",
-    name: "pexy",
-    pre: nil,
-    post: nil,
+    name: "pex",
+    pre: "o",
+    post: "y",
     type: 2, # 2 -> suffix
     meaning: "to fixate, position or to attach",
     example: "salpingo/pex/y (tube/repositioned or attached/procedure of"
   },
   {
     display: "-o/plast/y",
-    name: "plasty",
-    pre: nil,
-    post: nil,
+    name: "plast",
+    pre: "o",
+    post: "y",
     type: 2, # 2 -> suffix
     meaning: "plastic surgery (to improve function, looks, or relieve pain",
     example: "rhino/plast/y (nose/plastic surgery/procedure of)"
+  },
+  {
+    display: "-o/rrhaph/y",
+    name: "rraph",
+    pre: "o",
+    post: "y",
+    type: 2, # 2 -> suffix
+    meaning: "Surgically to suture or repair",
+    example: "nephro/rrhaphy (kidney/suture/procedure of)"
+  },
+  {
+    display: "-o/tom/y",
+    name: "tom",
+    pre: "o",
+    post: "y",
+    type: 2, # 2 -> suffix
+    meaning: "Cutting into, to open, make incision",
+    example: "tracheo/tom/y (windpipe/cut into/procedure of)"
+  },
+  {
+    display: "-os/tom/y",
+    name: "tom",
+    pre: "os",
+    post: "y",
+    type: 2, # 2 -> suffix
+    meaning: "new permanent opening or mouth",
+    example: "col/ostom/y (colon/opening/procedure of)"
+  },
+  {
+    display: "-o/trips/y",
+    name: "trips",
+    pre: "o",
+    post: "y",
+    type: 2, # 2 -> suffix
+    meaning: "crushing or destroying",
+    example: "litho/tripsy (stone/crushing), neuro/trips/y (nerve/crushing/procedure)"
+  },
+  {
+    display: "-o/desis",
+    name: "desis",
+    pre: "o",
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "binding or stabilization",
+    example: "arthro/desis (joint/binding)"
+  },
+  {
+    display: "-clasis",
+    name: "clasis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "to break down",
+    example: "oseto/clasis (bone/refactoring)"
+  },
+  {
+    display: "-lysis",
+    name: "lysis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "to loosen (free from adhesion) or destroy",
+    example: "entero/lysis (intestine/destroyed)"
+  },
+  {
+    display: "-cis",
+    name: "cis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "to cut",
+    example: "circum/cis/ion (around/cut/procedure)"
+  },
+  {
+    display: "-cide",
+    name: "cide",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "to kill",
+    example: "germi/cide/al (bacteria/kill/pertains to)"
+  },
+  {
+    display: "-stasis",
+    name: "stasis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "to stop or control",
+    example: "hemo/stasis (blood/controlling or stoppage)"
+  },
+  {
+    display: "-sis",
+    name: "sis",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "medical condition or disease",
+    example: "necro/sis (death or dying/condition or state)"
+  },
+  {
+    display: "-age",
+    name: "age",
+    pre: nil,
+    post: nil,
+    type: 2, # 2 -> suffix
+    meaning: "something is related to",
+    example: "mass/age (kneading/relates to), tri/age (sorting or separating/relates to)"
+  },
+  {
+    display: "-iatr/y",
+    name: "iatr",
+    pre: nil,
+    post: "y",
+    type: 2, # 2 -> suffix
+    meaning: "to treat, to heal or cure",
+    example: "psych/iatr/y (mind/treat or cure/procedure)"
+  },
+  {
+    display: "-therap/y",
+    name: "therap",
+    pre: nil,
+    post: "y",
+    type: 2, # 2 -> suffix
+    meaning: "to treat or cure",
+    example: "chemo/therap/y (chemical/treatment/process)"
+  },
+  {
+    display: "-sect/ion",
+    name: "sect",
+    pre: nil,
+    post: "ion",
+    type: 2, # 2 -> suffix
+    meaning: "to cut or make several slices of a body part (to cut apart)",
+    example: "hepato/sect/ion (liver/several cuts/procedure)"
   }
 ])
 
